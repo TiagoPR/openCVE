@@ -23,6 +23,12 @@ def fetch_cves(page):
     response = requests.get(base_url, auth=HTTPBasicAuth(username, password), params=params)
     return response
 
+def fetch_cves_vendor(vendor):
+    """ Fetch CVEs from the API for a specific vendor. """
+    params = {'vendor': vendor}
+    response = requests.get(base_url, auth=HTTPBasicAuth(username, password), params=params)
+    return response
+
 def cves_updated_today(cve_list):
     """ Filter CVEs that are updated today. """
     updated_today = []
@@ -55,7 +61,7 @@ while True:
         break 
 
     page += 1 
-
+count = 0
 for cve in all_updated_cves:
     cve_id = cve.get('id')
     if cve_id:
@@ -66,7 +72,11 @@ for cve in all_updated_cves:
         if cve_response.status_code == 200:
             print(f"Success! Fetched details for CVE: {cve_id}")
             cve_details = cve_response.json()
-            
-            print(json.dumps(cve_details, indent=4))
+            if not cve_details['raw_nvd_data'].get('configurations'):
+                print(json.dumps(cve_details, indent=4))
+            else:
+                count += 1
         else:
             print(f"Failed to retrieve details for CVE: {cve_id} - Status Code: {cve_response.status_code}")
+
+print(count)
