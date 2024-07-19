@@ -1,0 +1,11 @@
+---
+- name: Gather facts about the localhost
+  hosts: local
+  tasks:
+    - name: Gather facts
+      ansible.builtin.setup:
+
+    - name: Print the operating system
+      ansible.builtin.debug:
+        msg: >
+          The operating system is {{ ansible_facts['distribution'] }} {% if ansible_facts['distribution_version'] != 'rolling' %} {{ ansible_facts['distribution_version'] }} {% else %} (rolling release) {% endif %} with kernel version {{ ansible_facts['kernel'] }}
