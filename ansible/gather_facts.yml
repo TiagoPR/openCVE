@@ -2,9 +2,6 @@
 - name: Gather facts about the localhost
   hosts: local
   tasks:
-    - name: Gather facts
-      ansible.builtin.setup:
-
     - name: Print the operating system
       ansible.builtin.debug:
         msg: >
