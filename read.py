@@ -99,17 +99,22 @@ def readVersions():
         print("No objects matched the categories.")
     else:
         # Print filtered objects with version
-        versions = []
+        versions = {}
         for obj in filtered_objects:
             obj_id = obj['id']
             obj_title = obj['title']
             version_title = get_version_info(obj_id)
-            versions.append((obj_title,version_title))
-            return versions 
+            versions[obj_title] = version_title
+        return versions 
 
-versions = readVersions()
-if versions:
-    for obj_title, version_title in versions:
-        print(f"Title: {obj_title}, Version: {version_title}")
-else:
-    print("No objects or versions found")
+def main():
+    versions = readVersions()
+    if versions:
+        for title in versions:
+            version_title = versions[title]
+            print(f"Title: {title}, Version: {version_title}")
+    else:
+        print("No objects or versions found")
+
+if __name__ == "__main__":
+    main()

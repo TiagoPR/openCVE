@@ -1,660 +1,324 @@
-{'id': 1, 'jsonrpc': '2.0', 'result': [{'id': 3903, 'title': 'host-emprestimo', 'sysid': 'SYSID_1715169665', 'type': 5, 'created': '2024-05-08 11:56:02', 'updated': '2024-07-18 15:09:53', 'type_title': 'Server', 'type_group_title': 'Infrastructure', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1, 'title': 'Root location', 'sysid': 'SYSID_1132672018', 'type': 30, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:03:30', 'type_title': 'Generic Location', 'type_group_title': 'Infrastructure', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4705, 'title': 'VM2', 'sysid': 'SYSID_1721306348', 'type': 59, 'created': '2024-07-18 12:20:43', 'updated': '2024-07-18 12:21:59', 'type_title': 'Virtual server', 'type_group_title': 'Infrastructure', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4714, 'title': 'Brasil', 'sysid': 'SYSID_1721316051', 'type': 84, 'created': '2024-07-18 15:02:17', 'updated': '2024-07-18 15:03:44', 'type_title': 'Country', 'type_group_title': 'Infrastructure', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4713, 'title': 'Portugal', 'sysid': 'SYSID_1721316039', 'type': 84, 'created': '2024-07-18 15:02:06', 'updated': '2024-07-18 15:04:08', 'type_title': 'Country', 'type_group_title': 'Infrastructure', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4723, 'title': 'Guimarães', 'sysid': 'SYSID_1721316260', 'type': 85, 'created': '2024-07-18 15:05:37', 'updated': '2024-07-18 15:05:59', 'type_title': 'City', 'type_group_title': 'Infrastructure', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4721, 'title': 'Riba D´Ave', 'sysid': 'SYSID_1721316236', 'type': 85, 'created': '2024-07-18 15:05:15', 'updated': '2024-07-18 15:05:26', 'type_title': 'City', 'type_group_title': 'Infrastructure', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4715, 'title': 'São Bernardo do Campo', 'sysid': 'SYSID_1721316091', 'type': 85, 'created': '2024-07-18 15:02:56', 'updated': '2024-07-18 15:04:32', 'type_title': 'City', 'type_group_title': 'Infrastructure', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4719, 'title': 'Votorantim', 'sysid': 'SYSID_1721316193', 'type': 85, 'created': '2024-07-18 15:04:34', 'updated': '2024-07-18 15:04:51', 'type_title': 'City', 'type_group_title': 'Infrastructure', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 20, 'title': 'Global v4', 'sysid': 'SYSID_1323964017', 'type': 31, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:03:30', 'type_title': 'Layer 3-Net', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 21, 'title': 'Global v6', 'sysid': 'SYSID_1323964018', 'type': 31, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:03:30', 'type_title': 'Layer 3-Net', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 3906, 'title': 'VLAN1', 'sysid': 'SYSID_1715169668', 'type': 31, 'created': '2024-05-08 11:56:02', 'updated': '2024-05-08 11:56:02', 'type_title': 'Layer 3-Net', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 101, 'title': 'Horário de Manutenção', 'sysid': 'SYSID_1689170060', 'type': 36, 'created': '2023-07-12 14:52:39', 'updated': '2024-07-18 11:51:57', 'type_title': 'Object group', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 5548, 'title': 'IMPORTED', 'sysid': 'SYSID_1721318039', 'type': 36, 'created': '2024-07-18 15:21:31', 'updated': '2024-07-18 15:24:39', 'type_title': 'Object group', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 272, 'title': 'Request Tracker', 'sysid': 'SYSID_1643881696', 'type': 36, 'created': '2023-10-27 14:33:40', 'updated': '2023-10-27 14:33:40', 'type_title': 'Object group', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2345, 'title': 'A10.1.1: Revisão de configurações de cifra (HTTPS)', 'sysid': 'SYSID_1689170310', 'type': 45, 'created': '2024-01-25 18:21:57', 'updated': '2024-01-25 18:21:57', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2377, 'title': 'A10.1.1: Revisão de configurações de cifra (VPN)', 'sysid': 'SYSID_1689170347', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2379, 'title': 'A12.2.1: Controls against malware', 'sysid': 'SYSID_1689170404', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2380, 'title': 'A12.2.1: Verificação de funcionamento e actualização anti-vírus', 'sysid': 'SYSID_1689170435', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2381, 'title': 'A12.3.1: Análise de resiliência a ransomware (repositório de backups)', 'sysid': 'SYSID_1689170469', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2382, 'title': 'A12.3.1: Revisão de política de cópias de segurança', 'sysid': 'SYSID_1689170503', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2383, 'title': 'A12.3.1: Verificação de cópias de segurança', 'sysid': 'SYSID_1689170968', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2384, 'title': 'A12.3.1: Verificação de funcionamento de Cluster (replicação)', 'sysid': 'SYSID_1689171032', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2385, 'title': 'A12.4.1: Revisão de logs de acesso do Domínio', 'sysid': 'SYSID_1689171070', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2386, 'title': 'A12.4.1: Revisão de logs de acesso VPN', 'sysid': 'SYSID_1689171108', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2387, 'title': 'A12.4.1: Revisão de logs de acesso web', 'sysid': 'SYSID_1689171146', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2388, 'title': 'A12.4.1: Revisão de logs WAF', 'sysid': 'SYSID_1689171182', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2389, 'title': 'A12.6.1: Manutenção de activos (firmware)', 'sysid': 'SYSID_1689171243', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2390, 'title': 'A12.6.1: Manutenção de plataformas/serviços', 'sysid': 'SYSID_1689171281', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2391, 'title': 'A12.6.1: Manutenção IBM Power', 'sysid': 'SYSID_1689171321', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2378, 'title': 'A13.1.1: Segurança de rede: Interligações activas VPN', 'sysid': 'SYSID_1689171521', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2392, 'title': 'A13.1.1: Segurança de rede: regras de firewall activas', 'sysid': 'SYSID_1689171560', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2394, 'title': 'A13.1.1: Segurança de rede: regras de firewall activas (Datacenter Eurotux)', 'sysid': 'SYSID_1689171591', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2395, 'title': 'A13.1.1: Segurança de rede: Revisão Proxy', 'sysid': 'SYSID_1689171622', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2396, 'title': 'A13.1.1: Segurança de rede: Revisão Relay de e-mail', 'sysid': 'SYSID_1689171656', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2397, 'title': 'A17.1.3: Teste de Disaster Recovery', 'sysid': 'SYSID_1689171709', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2398, 'title': 'A17.2.1: Teste de Redundância de DNS', 'sysid': 'SYSID_1689171738', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2399, 'title': 'A9.2.5: User Access Review - Acessos VPN', 'sysid': 'SYSID_1689171772', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2400, 'title': 'A9.2.5: User Access Review - Acessos VPN (Datacenter Eurotux)', 'sysid': 'SYSID_1689171804', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2401, 'title': 'A9.2.5: User Access Review – AWS', 'sysid': 'SYSID_1689171837', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2402, 'title': 'A9.2.5: User Access Review – Bases de Dados', 'sysid': 'SYSID_1689171870', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2403, 'title': 'A9.2.5: User Access Review – Domínio', 'sysid': 'SYSID_1689172439', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2404, 'title': 'A9.2.5: User Access Review – hypervisor', 'sysid': 'SYSID_1689172470', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2405, 'title': 'A9.2.5: User Access Review – Linux', 'sysid': 'SYSID_1689172500', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2406, 'title': 'A9.2.5: User Access Review – Office365', 'sysid': 'SYSID_1689172534', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2407, 'title': 'A9.2.5: User Access Review – PHPList', 'sysid': 'SYSID_1689172562', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2393, 'title': 'A9.2.5: User Access Review – Power', 'sysid': 'SYSID_1689172594', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2376, 'title': 'A9.2.5: User Access Review – ServiceDesk Eurotux e contactos cliente', 'sysid': 'SYSID_1689172627', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2361, 'title': 'Custódia de Tapes - 10x5', 'sysid': 'SYSID_1698406824', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2375, 'title': 'Custódia de Tapes - 24x7', 'sysid': 'SYSID_1698406739', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2347, 'title': 'DBA - 10x5', 'sysid': 'SYSID_1698406712', 'type': 45, 'created': '2024-01-25 18:21:57', 'updated': '2024-01-25 18:21:57', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2348, 'title': 'DBA - 24x7', 'sysid': 'SYSID_1698406701', 'type': 45, 'created': '2024-01-25 18:21:57', 'updated': '2024-01-25 18:21:57', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2349, 'title': 'DRaaS - 10x5', 'sysid': 'SYSID_1698407772', 'type': 45, 'created': '2024-01-25 18:21:57', 'updated': '2024-01-25 18:21:57', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2350, 'title': 'DRaaS - 24x7', 'sysid': 'SYSID_1698407797', 'type': 45, 'created': '2024-01-25 18:21:57', 'updated': '2024-01-25 18:21:57', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2351, 'title': 'e-Backup - 10x5', 'sysid': 'SYSID_1698406970', 'type': 45, 'created': '2024-01-25 18:21:57', 'updated': '2024-01-25 18:21:57', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2352, 'title': 'e-Backup - 24x7', 'sysid': 'SYSID_1698406984', 'type': 45, 'created': '2024-01-25 18:21:57', 'updated': '2024-01-25 18:21:57', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2353, 'title': 'e-Newsletter - 10x5', 'sysid': 'SYSID_1698406997', 'type': 45, 'created': '2024-01-25 18:21:57', 'updated': '2024-01-25 18:21:57', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2354, 'title': 'e-Newsletter - 24x7', 'sysid': 'SYSID_1698407010', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2355, 'title': 'e-Ticketing - 10x5', 'sysid': 'SYSID_1698407710', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2356, 'title': 'e-Ticketing - 24x7', 'sysid': 'SYSID_1698407738', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2357, 'title': 'Gestão de Serviços - 10x5 (Nível 1)', 'sysid': 'SYSID_1698185492', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2358, 'title': 'Gestão de Serviços - 10x5 (Nível 2)', 'sysid': 'SYSID_1698407372', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2359, 'title': 'Hosting - 10x5', 'sysid': 'SYSID_1698406580', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2346, 'title': 'Hosting - 24x7', 'sysid': 'SYSID_1698406596', 'type': 45, 'created': '2024-01-25 18:21:57', 'updated': '2024-01-25 18:21:57', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2360, 'title': 'Housing - 10x5', 'sysid': 'SYSID_1698406615', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2362, 'title': 'Housing - 24x7', 'sysid': 'SYSID_1698406633', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2363, 'title': 'Intervenções Complementares - 10x5', 'sysid': 'SYSID_1698406684', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2364, 'title': 'Intervenções Complementares - 24x7', 'sysid': 'SYSID_1698406673', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2365, 'title': 'Manutenção - 10x5', 'sysid': 'SYSID_1698185418', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2366, 'title': 'Manutenção - 24x7', 'sysid': 'SYSID_1698185439', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2367, 'title': 'Monitorização Nível 1 - 10x5', 'sysid': 'SYSID_1689170109', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2368, 'title': 'Monitorização Nível 1 - 24x7', 'sysid': 'SYSID_1698180757', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2369, 'title': 'Monitorização Nível 2 - 10x5', 'sysid': 'SYSID_1689170023', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2370, 'title': 'Monitorização Nível 2 - 24x7', 'sysid': 'SYSID_1698180768', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2371, 'title': 'Monitorização: revisão de thresholds, de configurações e de alarmística (contactos)', 'sysid': 'SYSID_1689170278', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2372, 'title': 'Service Desk - 10x5', 'sysid': 'SYSID_1698185459', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2373, 'title': 'Service Desk - 24x7', 'sysid': 'SYSID_1698185474', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2374, 'title': 'Suporte - 10x5', 'sysid': 'SYSID_1698185339', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 15, 'cmdb_status_title': '10x5', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2408, 'title': 'Suporte - 24x7', 'sysid': 'SYSID_1698180851', 'type': 45, 'created': '2024-01-25 18:21:58', 'updated': '2024-01-25 18:21:58', 'type_title': 'Service', 'type_group_title': 'Other', 'status': 2, 'cmdb_status': 16, 'cmdb_status_title': '24x7', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4703, 'title': 'Apache', 'sysid': 'SYSID_1721305244', 'type': 2, 'created': '2024-07-18 12:02:21', 'updated': '2024-07-18 12:03:14', 'type_title': 'Application', 'type_group_title': 'Software', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 6921, 'title': 'Docker', 'sysid': 'SYSID_1721401435', 'type': 2, 'created': '2024-07-19 14:08:34', 'updated': '2024-07-19 14:09:01', 'type_title': 'Application', 'type_group_title': 'Software', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 6364, 'title': 'Kubernetes', 'sysid': 'SYSID_1721325139', 'type': 2, 'created': '2024-07-18 17:06:15', 'updated': '2024-07-18 17:08:52', 'type_title': 'Application', 'type_group_title': 'Software', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 3946, 'title': 'CentOS 4/5/6 (64-bit)', 'sysid': 'SYSID_1715191938', 'type': 35, 'created': '2024-05-08 18:06:32', 'updated': '2024-05-08 18:06:32', 'type_title': 'Operating system', 'type_group_title': 'Software', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4710, 'title': 'Linux', 'sysid': 'SYSID_1721314033', 'type': 35, 'created': '2024-07-18 14:28:43', 'updated': '2024-07-18 15:14:45', 'type_title': 'Operating system', 'type_group_title': 'Software', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4701, 'title': 'Windows', 'sysid': 'SYSID_1721304857', 'type': 35, 'created': '2024-07-18 11:55:56', 'updated': '2024-07-18 15:34:13', 'type_title': 'Operating system', 'type_group_title': 'Software', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 9, 'title': 'admin ', 'sysid': 'SYSID_1280838787', 'type': 53, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:06:24', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 192, 'title': 'Ana Carvalho', 'sysid': 'SYSID_1690454369', 'type': 53, 'created': '2023-07-27 11:36:17', 'updated': '2023-07-27 11:36:17', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1853, 'title': 'Anabela Ferreira', 'sysid': 'SYSID_1701864042', 'type': 53, 'created': '2023-12-06 11:29:49', 'updated': '2023-12-06 11:29:49', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 78, 'title': 'Anderson Nascimento', 'sysid': 'SYSID_1688758580', 'type': 53, 'created': '2023-07-07 20:35:01', 'updated': '2023-07-07 20:35:01', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1717, 'title': 'António Ferreira', 'sysid': 'SYSID_1700656594', 'type': 53, 'created': '2023-11-22 12:07:57', 'updated': '2023-11-22 12:07:57', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 22, 'title': 'Api System', 'sysid': 'SYSID_1323964020', 'type': 53, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:03:30', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1510, 'title': 'Armindo Silva', 'sysid': 'SYSID_1698659923', 'type': 53, 'created': '2023-10-30 09:33:33', 'updated': '2023-10-30 09:33:33', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1652, 'title': 'Bruna Lisboa', 'sysid': 'SYSID_1700048000', 'type': 53, 'created': '2023-11-15 11:05:48', 'updated': '2023-11-15 11:05:48', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 53, 'title': 'Bruno Baptista', 'sysid': 'SYSID_1688550039', 'type': 53, 'created': '2023-07-05 10:39:46', 'updated': '2023-07-05 10:39:46', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 41, 'title': 'Bruno Costa', 'sysid': 'SYSID_1688406678', 'type': 53, 'created': '2023-07-03 18:50:37', 'updated': '2023-07-03 18:50:37', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 234, 'title': 'Bruno Gomes', 'sysid': 'SYSID_1698413066', 'type': 53, 'created': '2023-10-27 14:20:32', 'updated': '2023-10-27 14:20:32', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 67, 'title': 'Carlos João da Silva', 'sysid': 'SYSID_1688640567', 'type': 53, 'created': '2023-07-06 11:48:20', 'updated': '2023-07-06 11:48:20', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1724, 'title': 'César Gonçalves', 'sysid': 'SYSID_1700677683', 'type': 53, 'created': '2023-11-22 17:59:19', 'updated': '2023-11-22 17:59:19', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1777, 'title': 'Ciro Melo', 'sysid': 'SYSID_1701164907', 'type': 53, 'created': '2023-11-28 09:18:50', 'updated': '2023-11-28 09:18:50', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4466, 'title': 'Connor Stevenson', 'sysid': 'SYSID_1719589524', 'type': 53, 'created': '2024-06-28 15:30:58', 'updated': '2024-06-28 15:30:58', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1558, 'title': 'Diana Montes', 'sysid': 'SYSID_1698949400', 'type': 53, 'created': '2023-11-02 17:57:22', 'updated': '2023-11-02 17:57:22', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1668, 'title': 'Diego Santana', 'sysid': 'SYSID_1700131091', 'type': 53, 'created': '2023-11-16 10:10:23', 'updated': '2023-11-16 10:10:23', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 230, 'title': 'Douglas Pereira', 'sysid': 'SYSID_1698410320', 'type': 53, 'created': '2023-10-27 13:34:50', 'updated': '2023-10-27 13:34:50', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1549, 'title': 'Duarte Pousa', 'sysid': 'SYSID_1698920859', 'type': 53, 'created': '2023-11-02 10:01:50', 'updated': '2023-11-02 10:01:50', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 35, 'title': 'Eduardo Avelar', 'sysid': 'SYSID_1688390351', 'type': 53, 'created': '2023-07-03 14:18:36', 'updated': '2023-07-03 14:18:36', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1714, 'title': 'Eduardo Pinto', 'sysid': 'SYSID_1700654810', 'type': 53, 'created': '2023-11-22 11:38:16', 'updated': '2023-11-22 11:38:16', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2481, 'title': 'Eduardo Pousa', 'sysid': 'SYSID_1706706617', 'type': 53, 'created': '2024-01-31 12:28:56', 'updated': '2024-01-31 12:28:56', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 217, 'title': 'Elvys Marchon de Azevedo', 'sysid': 'SYSID_1690899696', 'type': 53, 'created': '2023-08-01 15:17:59', 'updated': '2023-08-01 15:17:59', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 184, 'title': 'Fernando Gomes', 'sysid': 'SYSID_1690297294', 'type': 53, 'created': '2023-07-25 15:58:30', 'updated': '2023-07-25 15:58:30', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1538, 'title': 'Fernando Guimaraes', 'sysid': 'SYSID_1698771078', 'type': 53, 'created': '2023-10-31 16:25:40', 'updated': '2023-10-31 16:25:40', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 39, 'title': 'Francisco Ribeiro', 'sysid': 'SYSID_1688406455', 'type': 53, 'created': '2023-07-03 18:46:56', 'updated': '2023-07-03 18:46:56', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2121, 'title': 'Gonçalo Pereira', 'sysid': 'SYSID_1704730692', 'type': 53, 'created': '2024-01-08 15:42:51', 'updated': '2024-01-08 15:42:51', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 33, 'title': 'Hilario Santos', 'sysid': 'SYSID_1688385330', 'type': 53, 'created': '2023-07-03 12:54:57', 'updated': '2023-07-03 12:54:57', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 59, 'title': 'Hugo Pereira', 'sysid': 'SYSID_1688566575', 'type': 53, 'created': '2023-07-05 15:15:16', 'updated': '2023-07-05 15:15:16', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1839, 'title': 'Inês Marinho', 'sysid': 'SYSID_1701778634', 'type': 53, 'created': '2023-12-05 11:46:35', 'updated': '2023-12-05 11:46:35', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 51, 'title': 'Jean Rito', 'sysid': 'SYSID_1688544795', 'type': 53, 'created': '2023-07-05 09:12:24', 'updated': '2023-07-05 09:12:24', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2174, 'title': 'Joana Dantas', 'sysid': 'SYSID_1705081334', 'type': 53, 'created': '2024-01-12 17:06:00', 'updated': '2024-01-12 17:06:00', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4027, 'title': 'Joao Peixe', 'sysid': 'SYSID_1715792199', 'type': 53, 'created': '2024-05-15 16:49:32', 'updated': '2024-05-15 16:49:32', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1802, 'title': 'Joao Rua', 'sysid': 'SYSID_1701273172', 'type': 53, 'created': '2023-11-29 15:22:50', 'updated': '2023-11-29 15:22:50', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1998, 'title': 'Jorge Freitas', 'sysid': 'SYSID_1703291641', 'type': 53, 'created': '2023-12-23 00:00:43', 'updated': '2023-12-23 00:00:43', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1556, 'title': 'Jorge Paiva', 'sysid': 'SYSID_1698949213', 'type': 53, 'created': '2023-11-02 17:54:17', 'updated': '2023-11-02 17:54:17', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2528, 'title': 'Jose Carvalho', 'sysid': 'SYSID_1706897012', 'type': 53, 'created': '2024-02-02 17:21:24', 'updated': '2024-02-02 17:21:24', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1555, 'title': 'Jose Dinis', 'sysid': 'SYSID_1698944492', 'type': 53, 'created': '2023-11-02 16:35:37', 'updated': '2023-11-02 16:35:37', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 219, 'title': 'Leonardo Freitas', 'sysid': 'SYSID_1690899705', 'type': 53, 'created': '2023-08-01 15:18:06', 'updated': '2023-08-01 15:18:06', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4654, 'title': 'Lívia Alves', 'sysid': 'SYSID_1721153650', 'type': 53, 'created': '2024-07-16 17:56:36', 'updated': '2024-07-16 17:56:36', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 158, 'title': 'Luís Pereira', 'sysid': 'SYSID_1689584428', 'type': 53, 'created': '2023-07-17 09:57:50', 'updated': '2023-07-17 09:57:50', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 202, 'title': 'Marcio Moreira', 'sysid': 'SYSID_1690554133', 'type': 53, 'created': '2023-07-28 15:18:51', 'updated': '2023-07-28 15:18:51', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 48, 'title': 'Marco Oliveira', 'sysid': 'SYSID_1688488208', 'type': 53, 'created': '2023-07-04 17:29:20', 'updated': '2023-07-04 17:29:20', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1838, 'title': 'Mariana Gomes', 'sysid': 'SYSID_1701778269', 'type': 53, 'created': '2023-12-05 11:40:31', 'updated': '2023-12-05 11:40:31', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1916, 'title': 'Mariana Gomes', 'sysid': 'SYSID_1702493170', 'type': 53, 'created': '2023-12-13 18:14:14', 'updated': '2023-12-13 18:14:14', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2773, 'title': 'Mario Ferreira', 'sysid': 'SYSID_1708431989', 'type': 53, 'created': '2024-02-20 11:40:16', 'updated': '2024-02-20 11:40:16', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1545, 'title': 'Matheus Oliveira', 'sysid': 'SYSID_1698845199', 'type': 53, 'created': '2023-11-01 13:00:53', 'updated': '2023-11-01 13:00:53', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2327, 'title': 'Nelson Amaral', 'sysid': 'SYSID_1706185710', 'type': 53, 'created': '2024-01-25 11:49:43', 'updated': '2024-01-25 11:49:43', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1693, 'title': 'Nuno Monteiro', 'sysid': 'SYSID_1700483344', 'type': 53, 'created': '2023-11-20 12:00:51', 'updated': '2023-11-20 12:00:51', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2750, 'title': 'Paulo César', 'sysid': 'SYSID_1708358455', 'type': 53, 'created': '2024-02-19 15:15:05', 'updated': '2024-02-19 15:15:05', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1753, 'title': 'Paulo Cunha', 'sysid': 'SYSID_1701080778', 'type': 53, 'created': '2023-11-27 09:57:05', 'updated': '2023-11-27 09:57:05', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1505, 'title': 'Paulo Silva', 'sysid': 'SYSID_1698499301', 'type': 53, 'created': '2023-10-28 13:56:36', 'updated': '2023-10-28 13:56:36', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1970, 'title': 'Pedro Seixas', 'sysid': 'SYSID_1703086481', 'type': 53, 'created': '2023-12-20 15:01:51', 'updated': '2023-12-20 15:01:51', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 2577, 'title': 'Pedro Silva', 'sysid': 'SYSID_1707219052', 'type': 53, 'created': '2024-02-06 10:47:55', 'updated': '2024-02-06 10:47:55', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1566, 'title': 'Pedro Sousa', 'sysid': 'SYSID_1699011417', 'type': 53, 'created': '2023-11-03 11:10:51', 'updated': '2023-11-03 11:10:51', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 61, 'title': 'Ricardo Dimas', 'sysid': 'SYSID_1688568595', 'type': 53, 'created': '2023-07-05 15:48:54', 'updated': '2023-07-05 15:48:54', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 45, 'title': 'Ricardo Guerra Pires', 'sysid': 'SYSID_1688472432', 'type': 53, 'created': '2023-07-04 13:06:27', 'updated': '2023-07-04 13:06:27', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 72, 'title': 'Ricardo Oliveira', 'sysid': 'SYSID_1688719436', 'type': 53, 'created': '2023-07-07 09:42:44', 'updated': '2023-07-07 09:42:44', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 31, 'title': 'Roberto Pestana', 'sysid': 'SYSID_1688385032', 'type': 53, 'created': '2023-07-03 12:50:01', 'updated': '2023-07-03 12:50:01', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1770, 'title': 'Rodrigo Araujo', 'sysid': 'SYSID_1701112131', 'type': 53, 'created': '2023-11-27 18:39:21', 'updated': '2023-11-27 18:39:21', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 29, 'title': 'Rogerio Araujo', 'sysid': 'SYSID_1688383268', 'type': 53, 'created': '2023-07-03 12:20:39', 'updated': '2023-07-03 12:20:39', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1662, 'title': 'Sonyellen Nascimento', 'sysid': 'SYSID_1700072827', 'type': 53, 'created': '2023-11-15 17:59:25', 'updated': '2023-11-15 17:59:25', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1512, 'title': 'Tiago Oliveira', 'sysid': 'SYSID_1698659966', 'type': 53, 'created': '2023-10-30 09:34:14', 'updated': '2023-10-30 09:34:14', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 4680, 'title': 'Trainee Tiago Rodrigues', 'sysid': 'SYSID_1721299327', 'type': 53, 'created': '2024-07-18 10:24:07', 'updated': '2024-07-18 12:13:18', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1568, 'title': 'Vanessa Couto', 'sysid': 'SYSID_1699015169', 'type': 53, 'created': '2023-11-03 12:13:21', 'updated': '2023-11-03 12:13:21', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1616, 'title': 'Vasco Rodrigues', 'sysid': 'SYSID_1699551052', 'type': 53, 'created': '2023-11-09 17:03:56', 'updated': '2023-11-09 17:03:56', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 3871, 'title': 'Vinicius Leite', 'sysid': 'SYSID_1714998535', 'type': 53, 'created': '2024-05-06 12:24:24', 'updated': '2024-05-06 12:24:24', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 1744, 'title': 'Vitor Carvalho', 'sysid': 'SYSID_1700889095', 'type': 53, 'created': '2023-11-25 04:42:31', 'updated': '2023-11-25 04:42:31', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 37, 'title': 'Wanderley Santos', 'sysid': 'SYSID_1688393739', 'type': 53, 'created': '2023-07-03 15:15:02', 'updated': '2023-07-03 15:15:02', 'type_title': 'Persons', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 14, 'title': 'Admin', 'sysid': 'SYSID_1280838793', 'type': 54, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:03:30', 'type_title': 'Person groups', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 13, 'title': 'Archivar', 'sysid': 'SYSID_1280838792', 'type': 54, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:03:30', 'type_title': 'Person groups', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 12, 'title': 'Author', 'sysid': 'SYSID_1280838790', 'type': 54, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:03:30', 'type_title': 'Person groups', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 11, 'title': 'Editor', 'sysid': 'SYSID_1280838789', 'type': 54, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:03:30', 'type_title': 'Person groups', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 28, 'title': 'ETUXCom', 'sysid': 'SYSID_1688375769', 'type': 54, 'created': '2023-07-03 10:15:41', 'updated': '2023-07-03 10:16:26', 'type_title': 'Person groups', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 26, 'title': 'ETUXEditor', 'sysid': 'SYSID_1688375435', 'type': 54, 'created': '2023-07-03 10:10:09', 'updated': '2023-07-03 10:14:27', 'type_title': 'Person groups', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 27, 'title': 'ETUXReader', 'sysid': 'SYSID_1688375698', 'type': 54, 'created': '2023-07-03 10:14:31', 'updated': '2023-07-03 10:15:38', 'type_title': 'Person groups', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}, {'id': 10, 'title': 'Reader', 'sysid': 'SYSID_1280838788', 'type': 54, 'created': '2023-07-03 10:03:30', 'updated': '2023-07-03 10:03:30', 'type_title': 'Person groups', 'type_group_title': 'Contact', 'status': 2, 'cmdb_status': 6, 'cmdb_status_title': 'in operation', 'image': 'https://idoit.svc.eurotux.pt/i-doit//i-doit/cmdb/object-type/image/0'}]}
-
-
-
-
-
- OBJECTS DONE 
-
-
-
-
-
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 3903 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 3903 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4705 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4705 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4714 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4714 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4713 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4713 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4723 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4723 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4721 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4721 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4715 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4715 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4719 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4719 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 20 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 20 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 21 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 21 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 3906 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 3906 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 101 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 101 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 5548 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 5548 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 272 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 272 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2345 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2345 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2377 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2377 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2379 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2379 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2380 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2380 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2381 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2381 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2382 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2382 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2383 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2383 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2384 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2384 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2385 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2385 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2386 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2386 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2387 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2387 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2388 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2388 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2389 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2389 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2390 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2390 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2391 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2391 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2378 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2378 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2392 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2392 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2394 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2394 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2395 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2395 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2396 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2396 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2397 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2397 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2398 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2398 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2399 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2399 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2400 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2400 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2401 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2401 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2402 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2402 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2403 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2403 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2404 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2404 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2405 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2405 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2406 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2406 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2407 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2407 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2393 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2393 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2376 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2376 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2361 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2361 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2375 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2375 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2347 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2347 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2348 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2348 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2349 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2349 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2350 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2350 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2351 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2351 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2352 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2352 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2353 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2353 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2354 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2354 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2355 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2355 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2356 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2356 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2357 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2357 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2358 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2358 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2359 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2359 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2346 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2346 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2360 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2360 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2362 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2362 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2363 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2363 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2364 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2364 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2365 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2365 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2366 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2366 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2367 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2367 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2368 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2368 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2369 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2369 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2370 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2370 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2371 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2371 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2372 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2372 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2373 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2373 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2374 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2374 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2408 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2408 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4703 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4703 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': [{'id': '57', 'objID': '6921', 'application': {'title': 'Docker', 'id': '6921', 'connection_id': '1607', 'type': 'C__OBJTYPE__APPLICATION', 'type_title': 'Application', 'sysid': 'SYSID_1721401435'}, 'application_type': {'id': '1', 'title': 'Software', 'const': 'C__CATG__APPLICATION_TYPE__SOFTWARE', 'title_lang': 'LC__CATG__APPLICATION_TYPE__SOFTWARE'}, 'application_priority': None, 'assigned_license': False, 'assigned_license_key': None, 'assigned_database_schema': False, 'assigned_it_service': False, 'assigned_variant': None, 'assigned_version': {'id': '6921', 'title': 'Docker', 'sysid': 'SYSID_1721401435', 'type': 'C__OBJTYPE__APPLICATION', 'ref_id': '6', 'ref_title': '26.1', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'assigned_version_for_report': {'id': '6921', 'title': 'Docker', 'sysid': 'SYSID_1721401435', 'type': 'C__OBJTYPE__APPLICATION', 'ref_id': '6', 'ref_title': '26.1', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'bequest_nagios_services': {'value': '0', 'title': 'No'}, 'assigned_databases': None, 'installDate': '', 'description': ''}]}
 Category check for objID 6921 and category C__CATG__APPLICATION: [{'id': '57', 'objID': '6921', 'application': {'title': 'Docker', 'id': '6921', 'connection_id': '1607', 'type': 'C__OBJTYPE__APPLICATION', 'type_title': 'Application', 'sysid': 'SYSID_1721401435'}, 'application_type': {'id': '1', 'title': 'Software', 'const': 'C__CATG__APPLICATION_TYPE__SOFTWARE', 'title_lang': 'LC__CATG__APPLICATION_TYPE__SOFTWARE'}, 'application_priority': None, 'assigned_license': False, 'assigned_license_key': None, 'assigned_database_schema': False, 'assigned_it_service': False, 'assigned_variant': None, 'assigned_version': {'id': '6921', 'title': 'Docker', 'sysid': 'SYSID_1721401435', 'type': 'C__OBJTYPE__APPLICATION', 'ref_id': '6', 'ref_title': '26.1', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'assigned_version_for_report': {'id': '6921', 'title': 'Docker', 'sysid': 'SYSID_1721401435', 'type': 'C__OBJTYPE__APPLICATION', 'ref_id': '6', 'ref_title': '26.1', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'bequest_nagios_services': {'value': '0', 'title': 'No'}, 'assigned_databases': None, 'installDate': '', 'description': ''}]
-{'id': 1, 'jsonrpc': '2.0', 'result': [{'id': '56', 'objID': '6364', 'application': {'title': 'Kubernetes', 'id': '6364', 'connection_id': '1606', 'type': 'C__OBJTYPE__APPLICATION', 'type_title': 'Application', 'sysid': 'SYSID_1721325139'}, 'application_type': {'id': '1', 'title': 'Software', 'const': 'C__CATG__APPLICATION_TYPE__SOFTWARE', 'title_lang': 'LC__CATG__APPLICATION_TYPE__SOFTWARE'}, 'application_priority': None, 'assigned_license': False, 'assigned_license_key': None, 'assigned_database_schema': False, 'assigned_it_service': False, 'assigned_variant': None, 'assigned_version': {'id': '6364', 'title': 'Kubernetes', 'sysid': 'SYSID_1721325139', 'type': 'C__OBJTYPE__APPLICATION', 'ref_id': '5', 'ref_title': '5.2', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'assigned_version_for_report': {'id': '6364', 'title': 'Kubernetes', 'sysid': 'SYSID_1721325139', 'type': 'C__OBJTYPE__APPLICATION', 'ref_id': '5', 'ref_title': '5.2', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'bequest_nagios_services': {'value': '0', 'title': 'No'}, 'assigned_databases': None, 'installDate': '', 'description': ''}]}
 Category check for objID 6364 and category C__CATG__APPLICATION: [{'id': '56', 'objID': '6364', 'application': {'title': 'Kubernetes', 'id': '6364', 'connection_id': '1606', 'type': 'C__OBJTYPE__APPLICATION', 'type_title': 'Application', 'sysid': 'SYSID_1721325139'}, 'application_type': {'id': '1', 'title': 'Software', 'const': 'C__CATG__APPLICATION_TYPE__SOFTWARE', 'title_lang': 'LC__CATG__APPLICATION_TYPE__SOFTWARE'}, 'application_priority': None, 'assigned_license': False, 'assigned_license_key': None, 'assigned_database_schema': False, 'assigned_it_service': False, 'assigned_variant': None, 'assigned_version': {'id': '6364', 'title': 'Kubernetes', 'sysid': 'SYSID_1721325139', 'type': 'C__OBJTYPE__APPLICATION', 'ref_id': '5', 'ref_title': '5.2', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'assigned_version_for_report': {'id': '6364', 'title': 'Kubernetes', 'sysid': 'SYSID_1721325139', 'type': 'C__OBJTYPE__APPLICATION', 'ref_id': '5', 'ref_title': '5.2', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'bequest_nagios_services': {'value': '0', 'title': 'No'}, 'assigned_databases': None, 'installDate': '', 'description': ''}]
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 3946 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 3946 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': [{'id': '14', 'objID': '4710', 'application': {'title': 'Linux', 'id': '4710', 'connection_id': '1200', 'type': 'C__OBJTYPE__OPERATING_SYSTEM', 'type_title': 'Operating system', 'sysid': 'SYSID_1721314033'}, 'application_type': {'id': '2', 'title': 'Operating system', 'const': 'C__CATG__APPLICATION_TYPE__OPERATING_SYSTEM', 'title_lang': 'LC__CATG__APPLICATION_TYPE__OPERATING_SYSTEM'}, 'application_priority': {'id': '1', 'title': 'Primary', 'const': 'C__CATG__APPLICATION_PRIORITY__PRIMARY', 'title_lang': 'LC__CATG__APPLICATION_PRIORITY__PRIMARY'}, 'assigned_license': False, 'assigned_license_key': None, 'assigned_database_schema': False, 'assigned_it_service': False, 'assigned_variant': None, 'assigned_version': {'id': '4710', 'title': 'Linux', 'sysid': 'SYSID_1721314033', 'type': 'C__OBJTYPE__OPERATING_SYSTEM', 'ref_id': '4', 'ref_title': '10.0.1', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'assigned_version_for_report': {'id': '4710', 'title': 'Linux', 'sysid': 'SYSID_1721314033', 'type': 'C__OBJTYPE__OPERATING_SYSTEM', 'ref_id': '4', 'ref_title': '10.0.1', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'bequest_nagios_services': {'value': '0', 'title': 'No'}, 'assigned_databases': None, 'installDate': '2024-07-18 15:13:58', 'description': ''}]}
 Category check for objID 4710 and category C__CATG__APPLICATION: [{'id': '14', 'objID': '4710', 'application': {'title': 'Linux', 'id': '4710', 'connection_id': '1200', 'type': 'C__OBJTYPE__OPERATING_SYSTEM', 'type_title': 'Operating system', 'sysid': 'SYSID_1721314033'}, 'application_type': {'id': '2', 'title': 'Operating system', 'const': 'C__CATG__APPLICATION_TYPE__OPERATING_SYSTEM', 'title_lang': 'LC__CATG__APPLICATION_TYPE__OPERATING_SYSTEM'}, 'application_priority': {'id': '1', 'title': 'Primary', 'const': 'C__CATG__APPLICATION_PRIORITY__PRIMARY', 'title_lang': 'LC__CATG__APPLICATION_PRIORITY__PRIMARY'}, 'assigned_license': False, 'assigned_license_key': None, 'assigned_database_schema': False, 'assigned_it_service': False, 'assigned_variant': None, 'assigned_version': {'id': '4710', 'title': 'Linux', 'sysid': 'SYSID_1721314033', 'type': 'C__OBJTYPE__OPERATING_SYSTEM', 'ref_id': '4', 'ref_title': '10.0.1', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'assigned_version_for_report': {'id': '4710', 'title': 'Linux', 'sysid': 'SYSID_1721314033', 'type': 'C__OBJTYPE__OPERATING_SYSTEM', 'ref_id': '4', 'ref_title': '10.0.1', 'ref_type': 'C__CATG__VERSION', 'servicepack': None, 'hotfix': None, 'kernel': None}, 'bequest_nagios_services': {'value': '0', 'title': 'No'}, 'assigned_databases': None, 'installDate': '2024-07-18 15:13:58', 'description': ''}]
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4701 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4701 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 9 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 9 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 192 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 192 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1853 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1853 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 78 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 78 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1717 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1717 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 22 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 22 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1510 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1510 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1652 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1652 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 53 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 53 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 41 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 41 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 234 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 234 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 67 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 67 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1724 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1724 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1777 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1777 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4466 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4466 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1558 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1558 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1668 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1668 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 230 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 230 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1549 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1549 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 35 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 35 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1714 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1714 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2481 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2481 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 217 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 217 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 184 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 184 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1538 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1538 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 39 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 39 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2121 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2121 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 33 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 33 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 59 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 59 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1839 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1839 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 51 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 51 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2174 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2174 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4027 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4027 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1802 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1802 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1998 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1998 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1556 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1556 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2528 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2528 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1555 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1555 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 219 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 219 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4654 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4654 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 158 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 158 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 202 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 202 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 48 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 48 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1838 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1838 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1916 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1916 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2773 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2773 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1545 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1545 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2327 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2327 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1693 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1693 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2750 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2750 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1753 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1753 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1505 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1505 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1970 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1970 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2577 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 2577 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1566 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1566 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 61 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 61 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 45 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 45 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 72 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 72 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 31 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 31 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1770 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1770 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 29 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 29 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1662 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1662 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1512 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1512 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4680 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 4680 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1568 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1568 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1616 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1616 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 3871 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 3871 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1744 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 1744 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 37 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 37 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 14 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 14 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 13 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 13 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 12 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 12 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 11 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 11 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 28 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 28 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 26 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 26 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 27 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 27 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 10 and category C__CATG__APPLICATION: []
-{'id': 1, 'jsonrpc': '2.0', 'result': []}
 Category check for objID 10 and category C__CATG__OPERATING_SYSTEM: []
-{'id': 1, 'jsonrpc': '2.0', 'result': [{'id': '6', 'objID': '6921', 'title': '26.1', 'servicepack': None, 'kernel': None, 'patchlevel': None, 'description': None}]}
-ID: 6921, Title: Docker, Version: 26.1
-{'id': 1, 'jsonrpc': '2.0', 'result': [{'id': '5', 'objID': '6364', 'title': '5.2', 'servicepack': None, 'kernel': None, 'patchlevel': None, 'description': None}]}
-ID: 6364, Title: Kubernetes, Version: 5.2
-{'id': 1, 'jsonrpc': '2.0', 'result': [{'id': '4', 'objID': '4710', 'title': '10.0.1', 'servicepack': None, 'kernel': None, 'patchlevel': None, 'description': None}]}
-ID: 4710, Title: Linux, Version: 10.0.1
+Title: Docker, Version: 26.1
+Title: Kubernetes, Version: 5.2
+Title: Linux, Version: 10.0.1

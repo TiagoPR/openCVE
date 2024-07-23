@@ -33,6 +33,7 @@ def run_ansible_playbook():
         print(f"Operating System: {os_name}")
         print(f"OS Version: {os_version}")
         print(f"Kernel Version: {kernel_version}")
+        return (os_name, os_version, kernel_version)
         
     except subprocess.CalledProcessError as e:
         print(f"An error occurred: {e}")
