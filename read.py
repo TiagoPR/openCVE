@@ -1,11 +1,13 @@
 import requests
 import os
 from dotenv import load_dotenv
+#import certifi
 
 load_dotenv()
 
 IDOIT_API_URL = 'https://idoit.svc.eurotux.pt/i-doit/src/jsonrpc.php'
 API_KEY = os.getenv('YOUR_APIKEY')
+#CERT_PATH = "certs/server-cert.pem"
 
 def get_all_objects():
     payload = {
@@ -17,7 +19,7 @@ def get_all_objects():
         "id": 1
     }
     try:
-        response = requests.post(IDOIT_API_URL, json=payload, verify=False)
+        response = requests.post(IDOIT_API_URL, json=payload, verify= False)
         response.raise_for_status()
         #print(response.json())
         return response.json().get('result', [])
@@ -38,7 +40,7 @@ def has_category(obj_id, category_constant):
         "id": 1
     }
     try:
-        response = requests.post(IDOIT_API_URL, json=payload, verify=False)
+        response = requests.post(IDOIT_API_URL, json=payload, verify= False)
         response.raise_for_status()
         #print(response.json())
         result = response.json().get('result', [])
@@ -71,7 +73,7 @@ def get_version_info(obj_id):
         "id": 1
     }
     try:
-        response = requests.post(IDOIT_API_URL, json=payload, verify=False)
+        response = requests.post(IDOIT_API_URL, json=payload, verify= False)
         response.raise_for_status()
         #print(response.json())
         result = response.json().get('result', [])

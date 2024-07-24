@@ -34,6 +34,7 @@ def vendor_vulnerabilities(vendor):
     
     cve_list = response.json()
     
+    dic = {}
     for cve in cve_list:
         cve_id = cve.get('id')
         if cve_id:
@@ -42,12 +43,11 @@ def vendor_vulnerabilities(vendor):
             cve_response = requests.get(cve_url, auth=HTTPBasicAuth(username, password))
     
             if cve_response.status_code == 200:
-                print(f"Success! Fetched details for CVE: {cve_id}")
+                #print(f"Success! Fetched details for CVE: {cve_id}")
                 cve_details = cve_response.json()
                 #print(json.dumps(cve_details, indent=4))
     
                 configurations = cve_details['raw_nvd_data'].get('configurations', [])
-                dic = {}
                 for config in configurations:
                     nodes = config.get('nodes', [])
                     for node in nodes:
@@ -62,10 +62,10 @@ def vendor_vulnerabilities(vendor):
                                     dic[software] = set()
                                 # Add version to the set for the corresponding software
                                 dic[software].add(version)
-                for software, versions in dic.items():
-                    for version in versions:
-                        print(f"Vendor: {vendor}, Software: {software}, Version: {version} is vulnerable.")
-                return dic
+                #for software, versions in dic.items():
+                    #for version in versions:
+                        #print(f"Vendor: {vendor}, Software: {software}, Version: {version} is vulnerable.")
+    return dic
 
 def search_vulnerabilities(vendor):
     response = fetch_cves_search(vendor)
@@ -91,8 +91,9 @@ def search_vulnerabilities(vendor):
 def main():
 
     vendor = input("Which vendor do you want to search for? ")
-    vendor_vulnerabilities(vendor)
-    search_vulnerabilities(vendor)
+    vulnerabilities = vendor_vulnerabilities(vendor)
+    print(vulnerabilities)
+    #search_vulnerabilities(vendor)
 
 if __name__ == "__main__":
     main()
