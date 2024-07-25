@@ -91,9 +91,9 @@ def search_vulnerabilities(vendor):
 def main():
 
     vendor = input("Which vendor do you want to search for? ")
-    vulnerabilities = vendor_vulnerabilities(vendor)
-    print(vulnerabilities)
-    #search_vulnerabilities(vendor)
+    #vulnerabilities = vendor_vulnerabilities(vendor)
+    #print(vulnerabilities)
+    search_vulnerabilities(vendor)
 
 if __name__ == "__main__":
     main()

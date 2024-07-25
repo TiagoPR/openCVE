@@ -46,8 +46,8 @@ def get_info(api_key, id, args):
                 "version": "2.0",
                 "method": "cmdb.category.read",
                 "params": {
-				    "objID": id,
-				    "category": "C__CATG__OPERATING_SYSTEM",
+                    "objID": id,
+		    "category": "C__CATG__OPERATING_SYSTEM",
                     "apikey": api_key 
                 },
                 "id": 1
@@ -104,7 +104,8 @@ def main():
     parser = argparse.ArgumentParser(description="i-doit CLI tool")
     parser.add_argument("-t", "--tenant", required=True, help="The tenant you want to use (e.g., test)")
     parser.add_argument("-o", "--object", required=True, help="Which object you are going to want the information from")
-    parser.add_argument("-i", "--info", required=False, help="Which info you want to see?\n -OperatingSystem\n -Application\n -Support\n")
+    parser.add_argument("-i", "--info", required=False, 
+                        help="Which info you want to see?\n -OperatingSystem\n -Application\n -Support\n")
     args = parser.parse_args()
 
     try:
