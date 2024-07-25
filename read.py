@@ -2,6 +2,9 @@ import requests
 import os
 from dotenv import load_dotenv
 #import certifi
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 load_dotenv()
 

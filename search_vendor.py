@@ -29,8 +29,8 @@ def fetch_cves_search(vendor):
 def vendor_vulnerabilities(vendor):
     response = fetch_cves_vendor(vendor)
     if response.status_code != 200:
-        print(f"Failed to retrieve CVEs: {response.status_code}")
-        exit()
+        print(f"Failed to retrieve CVEs for {vendor}: {response.status_code}")
+        return
     
     cve_list = response.json()
     
@@ -91,9 +91,9 @@ def search_vulnerabilities(vendor):
 def main():
 
     vendor = input("Which vendor do you want to search for? ")
-    #vulnerabilities = vendor_vulnerabilities(vendor)
-    #print(vulnerabilities)
-    search_vulnerabilities(vendor)
+    vulnerabilities = vendor_vulnerabilities(vendor)
+    print(vulnerabilities)
+    #search_vulnerabilities(vendor)
 
 if __name__ == "__main__":
     main()

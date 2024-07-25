@@ -1,10 +1,12 @@
 import requests
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 url = "https://idoit.svc.eurotux.pt/i-doit/src/jsonrpc.php"
-cert_path = "certs/root.pem"  # Update this path
 
 try:
-    response = requests.get(url, verify=cert_path)
+    response = requests.get(url, verify=False)
     print(f"Connection successful. Status code: {response.status_code}")
 except requests.exceptions.SSLError as e:
     print(f"SSL Error: {e}")
