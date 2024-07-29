@@ -1,7 +1,10 @@
 from read import readVersions
+from idoit import IDoit
 from search_vendor import vendor_vulnerabilities 
 
-versions = readVersions()
+idoit = IDoit()
+api_key = idoit.get_api_key('test')
+versions = readVersions(idoit,api_key)
 if versions:
 	for title in versions:
 		version = versions[title]

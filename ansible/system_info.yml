@@ -1,0 +1,13 @@
+---
+- name: Gather package information
+  hosts: all
+  gather_facts: yes
+  
+  tasks:
+    - name: Collect package facts
+      package_facts:
+        manager: auto
+
+    - name: Display package information
+      debug:
+        var: ansible_facts.packages
