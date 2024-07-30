@@ -13,7 +13,8 @@ TENANT = "test"
 
 def readVersions(idoit, api_key):
     # Get all objects
-    objects = idoit.get_all_objects(api_key)
+    objects = idoit.fetch_hardware_objects_with_details(api_key)
+    print("Enriched objects: \n", objects)
     
     if not objects:
         print("No objects retrieved or failed to retrieve objects.")

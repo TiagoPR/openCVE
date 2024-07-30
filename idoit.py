@@ -91,6 +91,74 @@ class IDoit:
         version_info = result[0]
         return version_info.get('title', 'Unknown Version')
 
+    def fetch_hardware_objects(self, api_key):
+        hardware_types = [
+            'server',
+            'switch',
+            'router',
+            'firewall',
+            'storage system',
+            'blade server',
+            'enclosure',
+            'pdu',
+            'rack',
+            'workstation',
+            'net connector',
+            'virtual server'
+        ]
+        
+        # Convert all types to lowercase for case-insensitive matching
+        hardware_types = [t.lower() for t in hardware_types]
+        
+        # Fetch all objects
+        all_objects = self.get_all_objects(api_key)
+        
+        # Filter objects based on their type_title, case-insensitive
+        hardware_objects = []
+        for obj in all_objects:
+            if obj['type_title'].lower() in hardware_types:
+                hardware_objects.append({
+                    'id': obj['id'],
+                    'title': obj['title'],
+                    'type': obj['type_title'],
+                    'cmdb_status': obj['cmdb_status_title']
+                })
+        
+        return hardware_objects
+
+    def fetch_hardware_objects_with_details(self, api_key):
+        hardware_objects = self.fetch_hardware_objects(api_key)
+        
+        enriched_objects = []
+        for obj in hardware_objects:
+            obj_id = obj['id']
+            
+            # Fetch operating system information
+            os_info = self.get_category_info(api_key, obj_id, "C__CATG__OPERATING_SYSTEM")
+            if os_info:
+                obj['operating_system'] = {
+                    'title': os_info[0].get('title', 'N/A'),
+                    'version': os_info[0].get('version', 'N/A')
+                }
+            else:
+                obj['operating_system'] = {'title': 'N/A', 'version': 'N/A'}
+            
+            # Fetch application information
+            app_info = self.get_category_info(api_key, obj_id, "C__CATG__APPLICATION")
+            if app_info:
+                obj['applications'] = [
+                    {
+                        'title': app.get('title', 'N/A'),
+                        'version': app.get('version', 'N/A')
+                    } for app in app_info
+                ]
+            else:
+                obj['applications'] = []
+            
+            enriched_objects.append(obj)
+        
+        return enriched_objects
+
 def flatten_dict(d, parent_key='', sep='_'):
     items = []
     for k, v in d.items():
@@ -102,13 +170,29 @@ def flatten_dict(d, parent_key='', sep='_'):
     return dict(items)
 
 def dict_to_csv(data):
-    flattened_data = [flatten_dict(item) for item in data.values()]
-    keys = set().union(*(d.keys() for d in flattened_data))
+    if not data:
+        return ""
 
     output = io.StringIO()
-    writer = csv.DictWriter(output, fieldnames=sorted(keys))
-    writer.writeheader()
-    for row in flattened_data:
+    writer = csv.writer(output)
+
+    # Flatten and collect all unique keys
+    all_keys = set()
+    flattened_data = {}
+    for title, obj in data.items():
+        flat_obj = flatten_dict(obj)
+        all_keys.update(flat_obj.keys())
+        flattened_data[title] = flat_obj
+
+    # Ensure 'Title' is the first column
+    columns = ['Title'] + sorted(all_keys)
+
+    # Write headers
+    writer.writerow(columns)
+
+    # Write data rows
+    for title, flat_obj in flattened_data.items():
+        row = [title] + [flat_obj.get(key, 'N/A') for key in columns[1:]]
         writer.writerow(row)
 
     return output.getvalue()
