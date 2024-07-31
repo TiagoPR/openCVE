@@ -66,9 +66,17 @@ class IDoit:
         elif info_type in category_map:
             category_info = self.get_category_info(api_key, obj['id'], category_map[info_type])
             if category_info:
-                # Extract only the assigned_version field
-                assigned_version = next((item.get('assigned_version') for item in category_info if 'assigned_version' in item), 'N/A')
-                return {"assigned_version": assigned_version}
+                if info_type == "Application":
+                    # Filter out operating systems from the application category
+                    filtered_info = [item for item in category_info if item['application'].get('type') != 'C__OBJTYPE__OPERATING_SYSTEM']
+                else:
+                    filtered_info = category_info
+                # Extract the assigned_version field for each item in the filtered list
+                assigned_versions = [
+                    {"assigned_version": item.get('assigned_version', 'N/A')}
+                    for item in filtered_info if 'assigned_version' in item
+                ]
+                return assigned_versions if assigned_versions else None
             else:
                 return None
         else:
@@ -135,28 +143,30 @@ class IDoit:
             
             # Fetch operating system information
             os_info = self.get_category_info(api_key, obj_id, "C__CATG__OPERATING_SYSTEM")
-            if os_info:
+            obj['operating_system'] = []
+            if os_info and isinstance(os_info, list) and len(os_info) > 0:
+                application = os_info[0].get('application', {})
+                version = os_info[0].get('assigned_version', {})
                 obj['operating_system'] = {
-                    'title': os_info[0].get('title', 'N/A'),
-                    'version': os_info[0].get('version', 'N/A')
+                    'title': application.get('title', 'N/A'),
+                    'version': version.get('ref_title', 'N/A')
                 }
-            else:
-                obj['operating_system'] = {'title': 'N/A', 'version': 'N/A'}
             
             # Fetch application information
             app_info = self.get_category_info(api_key, obj_id, "C__CATG__APPLICATION")
-            if app_info:
-                obj['applications'] = [
-                    {
-                        'title': app.get('title', 'N/A'),
-                        'version': app.get('version', 'N/A')
-                    } for app in app_info
-                ]
-            else:
-                obj['applications'] = []
+            obj['applications'] = []
+            if app_info and isinstance(app_info, list):
+                for app in app_info:
+                    application = app.get('application', {})
+                    assigned_version = app.get('assigned_version', {})
+                    # Filter out operating systems from application results
+                    if assigned_version.get('type') != 'C__OBJTYPE__OPERATING_SYSTEM':
+                        obj['applications'].append({
+                            'title': application.get('title', 'N/A'),
+                            'version': assigned_version.get('ref_title', 'N/A'),
+                        })
             
             enriched_objects.append(obj)
-        
         return enriched_objects
 
 def flatten_dict(d, parent_key='', sep='_'):
